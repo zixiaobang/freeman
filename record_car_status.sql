@@ -22,3 +22,4 @@ begin
 	values 
 		(new.lpn,new.`STATUS`,new.update_time,new.city_code,new.order_id,new.member_id,new.park_id,DATE(NOW()),DAY(NOW()),HOUR(NOW()),MINUTE(NOW())); 
 end;
+
